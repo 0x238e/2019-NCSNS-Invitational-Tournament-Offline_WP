@@ -1,0 +1,13 @@
+Exception: STATUS_ACCESS_VIOLATION at eip=610DD894
+eax=00000000 ebx=9FDD0000 ecx=27F74000 edx=00000000 esi=01592525 edi=00000000
+ebp=0060CB88 esp=0060CB7C program=C:\Users\14682\Desktop\11-2\fixpngWindows\fixpng.exe, pid 3780, thread main
+cs=0023 ds=002B es=002B fs=0053 gs=002B ss=002B
+Stack trace:
+Frame     Function  Args
+0060CB88  610DD894  (00000000, 01592525, 9FDD0000, 00000054)
+0060CBB8  00401277  (01592525, 015924B0, 00000652, 00401078)
+0060CC68  00401162  (00000003, 015901D8, 01590090, 610BE827)
+0060CD48  61006198  (00000000, 0060CD80, 61005510, 0060CD80)
+61005510  61004416  (0000009C, A02404C7, E8611001, FFFFFF48)
+  50946 [main] fixpng 3780 _cygtls::handle_exceptions: Exception: STATUS_ACCESS_VIOLATION
+  51856 [main] fixpng 3780 _cygtls::handle_exceptions: Error while dumping state (probably corrupted stack)
